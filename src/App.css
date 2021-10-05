@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+.vh-image {
+  max-width: 1300px;
+  max-height: 1600px;
+  width: auto;
+  height: auto;
+  margin-left: 1in;
+  box-shadow: 10px 10px 20px 5px rgb(176, 175, 180);
+  border-top: 1px solid;
+  padding: 10px;
+  margin-bottom: 200px;
+  border-radius: 6px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slide-div {
+  width: 15.4in;
+  margin-top: 0.8in;
+  padding-left: 28%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.caption {
+  font-size: 43pt;
+  margin-left: 0.4in;
+  font-family: "Tajawal", sans-serif;
+  letter-spacing: 1.1px;
+  padding: 10px;
+  padding-top: 25px;
+  margin-bottom: 50px;
+  color: rgb(69, 91, 116);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.caption-title {
+  box-shadow: 10px 10px 20px 5px rgb(176, 175, 180);
+  width: 12in;
+  margin-left: 1.9in;
 }
 
-.App-link {
-  color: #61dafb;
+.prof-title {
+  box-shadow: 10px 10px 20px 5px rgb(176, 175, 180);
+  width: 10in;
+  margin-left: 2.9in;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.professional {
+  font-size: 43pt;
+  margin-left: 1.8in;
+  margin-bottom: 60px;
+  font-family: "Tajawal", sans-serif;
+  letter-spacing: 1.3px;
+  padding-top: 20px;
+  color: rgb(69, 91, 116);
+}
+
+.zine-title {
+  box-shadow: 10px 10px 20px 5px rgb(176, 175, 180);
+  width: 13in;
+  margin-left: 1.3in;
+  border-radius: 5px;
+}
+
+.zine {
+  font-size: 38pt;
+  margin-left: 0.7in;
+  margin-bottom: 60px;
+  font-family: "Tajawal", sans-serif;
+  letter-spacing: 1px;
+  color: rgb(69, 91, 116);
+  padding: 15px;
+  padding-top: 26px;
+}
+
+.career-title {
+  box-shadow: 10px 10px 20px 5px rgb(176, 175, 180);
+  width: 10in;
+  margin-left: 2.9in;
+  border-radius: 5px;
+}
+
+.career {
+  font-size: 40pt;
+  margin-left: 0.82in;
+  margin-bottom: 60px;
+  font-family: "Tajawal", sans-serif;
+  letter-spacing: 1.3px;
+  padding-top: 20px;
+  color: rgb(69, 91, 116);
 }
